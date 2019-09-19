@@ -13,6 +13,7 @@ import NetlifyCmsWidgetBoolean from 'netlify-cms-widget-boolean';
 import NetlifyCmsWidgetMap from 'netlify-cms-widget-map';
 import NetlifyCmsWidgetDate from 'netlify-cms-widget-date';
 import NetlifyCmsWidgetDatetime from 'netlify-cms-widget-datetime';
+import NetlifyCmsWidgetUuid from 'netlify-cms-widget-uuid';
 
 CMS.registerWidget([
   NetlifyCmsWidgetString.Widget(),
@@ -29,4 +30,5 @@ CMS.registerWidget([
   NetlifyCmsWidgetMap.Widget(),
   NetlifyCmsWidgetDate.Widget(),
   NetlifyCmsWidgetDatetime.Widget(),
+  NetlifyCmsWidgetUuid.Widget()
 ]);
